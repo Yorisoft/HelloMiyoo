@@ -17,7 +17,8 @@ This project contains a simple "Hello World" application for the Miyoo Mini devi
 ### Compiling on Union-miyoomini-toolchain
 
 1. Clone and start the docker container for the union-miyoomini-toolchain. 
-   - For instructions on how to get started union-miyoomini-toolchain please refer to their github READ.me .
+   - For instructions on how to get started union-miyoomini-toolchain please refer to their github READ.me 
+   - [union-miyoomini-toolchain](https://github.com/MiyooMini/union-toolchain/tree/main)
 2. Transfer the contents `workspace` folder from the `Source/Union-miyoomini-toolchain` directory of this repo to the development environment `/workspace`. 
    - Optionaly you could just replace the `workspace` folder with the one from this repo. 
 3. Compile the HelloMiyoo program using the provided CMakeList and Toolchain files:
