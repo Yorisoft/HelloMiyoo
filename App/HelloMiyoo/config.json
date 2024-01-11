@@ -1,0 +1,6 @@
+{
+	"label":	"Hello Miyoo",
+	"icon":	"res/icon/HelloMiyoo.png",
+	"launch":	"script/launch.sh",
+	"description":	"Hello World app for Miyoo Mini"
+}

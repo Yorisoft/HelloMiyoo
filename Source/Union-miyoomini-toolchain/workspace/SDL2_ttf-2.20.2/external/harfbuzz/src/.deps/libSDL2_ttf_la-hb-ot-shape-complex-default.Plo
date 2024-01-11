@@ -1,0 +1,521 @@
+external/harfbuzz/src/libSDL2_ttf_la-hb-ot-shape-complex-default.lo: \
+ external/harfbuzz/src/hb-ot-shape-complex-default.cc \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ external/harfbuzz/src/hb.hh external/harfbuzz/src/hb-config.hh \
+ external/harfbuzz/config.h external/harfbuzz/config_sdl_unix.h \
+ external/harfbuzz/src/hb.h external/harfbuzz/src/hb-blob.h \
+ external/harfbuzz/src/hb-common.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdint.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-uintn.h \
+ external/harfbuzz/src/hb-buffer.h external/harfbuzz/src/hb-unicode.h \
+ external/harfbuzz/src/hb-font.h external/harfbuzz/src/hb-face.h \
+ external/harfbuzz/src/hb-set.h external/harfbuzz/src/hb-draw.h \
+ external/harfbuzz/src/hb-deprecated.h external/harfbuzz/src/hb-map.h \
+ external/harfbuzz/src/hb-shape.h external/harfbuzz/src/hb-shape-plan.h \
+ external/harfbuzz/src/hb-style.h external/harfbuzz/src/hb-version.h \
+ external/harfbuzz/src/hb-ot.h external/harfbuzz/src/hb-ot-color.h \
+ external/harfbuzz/src/hb-ot-name.h \
+ external/harfbuzz/src/hb-ot-deprecated.h \
+ external/harfbuzz/src/hb-ot-font.h external/harfbuzz/src/hb-ot-layout.h \
+ external/harfbuzz/src/hb-ot-math.h external/harfbuzz/src/hb-ot-meta.h \
+ external/harfbuzz/src/hb-ot-metrics.h \
+ external/harfbuzz/src/hb-ot-shape.h external/harfbuzz/src/hb-ot-var.h \
+ external/harfbuzz/src/hb-aat.h external/harfbuzz/src/hb-aat-layout.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/limits.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/syslimits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uio_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/math.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/cmath \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/c++config.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/os_defines.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/cpu_defines.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/bits/cpp_type_traits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/ext/type_traits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/math.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/math-vector.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libm-simd-decl-stubs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/flt-eval-method.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/fp-logb.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/fp-fast.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls-helper-functions.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls-narrow.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/iscanonical.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/bits/std_abs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stddef.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/float.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/stdlib.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/cstdlib \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/strings.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/assert.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdarg.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/cookie_io_functions_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/errno.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/errno.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/errno.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm/errno.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/error_t.h \
+ external/harfbuzz/src/hb-meta.hh external/harfbuzz/src/hb-mutex.hh \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/pthread.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sched.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sched.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sched_param.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/cpu-set.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/timex.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_tm.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_itimerspec.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ external/harfbuzz/src/hb-number.hh external/harfbuzz/src/hb-atomic.hh \
+ external/harfbuzz/src/hb-null.hh external/harfbuzz/src/hb-algs.hh \
+ external/harfbuzz/src/hb-iter.hh external/harfbuzz/src/hb-debug.hh \
+ external/harfbuzz/src/hb-array.hh external/harfbuzz/src/hb-vector.hh \
+ external/harfbuzz/src/hb-object.hh \
+ external/harfbuzz/src/hb-ot-shape-complex.hh \
+ external/harfbuzz/src/hb-ot-layout.hh external/harfbuzz/src/hb-font.hh \
+ external/harfbuzz/src/hb-face.hh external/harfbuzz/src/hb-shaper.hh \
+ external/harfbuzz/src/hb-machinery.hh external/harfbuzz/src/hb-blob.hh \
+ external/harfbuzz/src/hb-dispatch.hh \
+ external/harfbuzz/src/hb-sanitize.hh \
+ external/harfbuzz/src/hb-serialize.hh external/harfbuzz/src/hb-map.hh \
+ external/harfbuzz/src/hb-pool.hh external/harfbuzz/src/hb-shaper-list.hh \
+ external/harfbuzz/src/hb-shape-plan.hh \
+ external/harfbuzz/src/hb-ot-shape.hh external/harfbuzz/src/hb-ot-map.hh \
+ external/harfbuzz/src/hb-buffer.hh external/harfbuzz/src/hb-unicode.hh \
+ external/harfbuzz/src/hb-aat-map.hh external/harfbuzz/src/hb-ot-face.hh \
+ external/harfbuzz/src/hb-ot-face-table-list.hh \
+ external/harfbuzz/src/hb-open-type.hh external/harfbuzz/src/hb-subset.hh \
+ external/harfbuzz/src/hb-subset.h \
+ external/harfbuzz/src/hb-subset-input.hh external/harfbuzz/src/hb-set.hh \
+ external/harfbuzz/src/hb-bit-set-invertible.hh \
+ external/harfbuzz/src/hb-bit-set.hh external/harfbuzz/src/hb-bit-page.hh \
+ external/harfbuzz/src/hb-subset-plan.hh \
+ external/harfbuzz/src/hb-set-digest.hh \
+ external/harfbuzz/src/hb-ot-shape-normalize.hh
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+external/harfbuzz/src/hb.hh:
+
+external/harfbuzz/src/hb-config.hh:
+
+external/harfbuzz/config.h:
+
+external/harfbuzz/config_sdl_unix.h:
+
+external/harfbuzz/src/hb.h:
+
+external/harfbuzz/src/hb-blob.h:
+
+external/harfbuzz/src/hb-common.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdint.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-uintn.h:
+
+external/harfbuzz/src/hb-buffer.h:
+
+external/harfbuzz/src/hb-unicode.h:
+
+external/harfbuzz/src/hb-font.h:
+
+external/harfbuzz/src/hb-face.h:
+
+external/harfbuzz/src/hb-set.h:
+
+external/harfbuzz/src/hb-draw.h:
+
+external/harfbuzz/src/hb-deprecated.h:
+
+external/harfbuzz/src/hb-map.h:
+
+external/harfbuzz/src/hb-shape.h:
+
+external/harfbuzz/src/hb-shape-plan.h:
+
+external/harfbuzz/src/hb-style.h:
+
+external/harfbuzz/src/hb-version.h:
+
+external/harfbuzz/src/hb-ot.h:
+
+external/harfbuzz/src/hb-ot-color.h:
+
+external/harfbuzz/src/hb-ot-name.h:
+
+external/harfbuzz/src/hb-ot-deprecated.h:
+
+external/harfbuzz/src/hb-ot-font.h:
+
+external/harfbuzz/src/hb-ot-layout.h:
+
+external/harfbuzz/src/hb-ot-math.h:
+
+external/harfbuzz/src/hb-ot-meta.h:
+
+external/harfbuzz/src/hb-ot-metrics.h:
+
+external/harfbuzz/src/hb-ot-shape.h:
+
+external/harfbuzz/src/hb-ot-var.h:
+
+external/harfbuzz/src/hb-aat.h:
+
+external/harfbuzz/src/hb-aat-layout.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/limits.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/syslimits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uio_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/math.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/cmath:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/c++config.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/os_defines.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf/bits/cpu_defines.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/bits/cpp_type_traits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/ext/type_traits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/math.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/math-vector.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libm-simd-decl-stubs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/flt-eval-method.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/fp-logb.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/fp-fast.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls-helper-functions.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls-narrow.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/iscanonical.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/bits/std_abs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stddef.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/float.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/stdlib.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/include/c++/8.3.0/cstdlib:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/strings.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/assert.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdarg.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/cookie_io_functions_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/errno.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/errno.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/errno.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm/errno.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/error_t.h:
+
+external/harfbuzz/src/hb-meta.hh:
+
+external/harfbuzz/src/hb-mutex.hh:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/pthread.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sched.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sched.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_sched_param.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/cpu-set.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/timex.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_tm.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_itimerspec.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+external/harfbuzz/src/hb-number.hh:
+
+external/harfbuzz/src/hb-atomic.hh:
+
+external/harfbuzz/src/hb-null.hh:
+
+external/harfbuzz/src/hb-algs.hh:
+
+external/harfbuzz/src/hb-iter.hh:
+
+external/harfbuzz/src/hb-debug.hh:
+
+external/harfbuzz/src/hb-array.hh:
+
+external/harfbuzz/src/hb-vector.hh:
+
+external/harfbuzz/src/hb-object.hh:
+
+external/harfbuzz/src/hb-ot-shape-complex.hh:
+
+external/harfbuzz/src/hb-ot-layout.hh:
+
+external/harfbuzz/src/hb-font.hh:
+
+external/harfbuzz/src/hb-face.hh:
+
+external/harfbuzz/src/hb-shaper.hh:
+
+external/harfbuzz/src/hb-machinery.hh:
+
+external/harfbuzz/src/hb-blob.hh:
+
+external/harfbuzz/src/hb-dispatch.hh:
+
+external/harfbuzz/src/hb-sanitize.hh:
+
+external/harfbuzz/src/hb-serialize.hh:
+
+external/harfbuzz/src/hb-map.hh:
+
+external/harfbuzz/src/hb-pool.hh:
+
+external/harfbuzz/src/hb-shaper-list.hh:
+
+external/harfbuzz/src/hb-shape-plan.hh:
+
+external/harfbuzz/src/hb-ot-shape.hh:
+
+external/harfbuzz/src/hb-ot-map.hh:
+
+external/harfbuzz/src/hb-buffer.hh:
+
+external/harfbuzz/src/hb-unicode.hh:
+
+external/harfbuzz/src/hb-aat-map.hh:
+
+external/harfbuzz/src/hb-ot-face.hh:
+
+external/harfbuzz/src/hb-ot-face-table-list.hh:
+
+external/harfbuzz/src/hb-open-type.hh:
+
+external/harfbuzz/src/hb-subset.hh:
+
+external/harfbuzz/src/hb-subset.h:
+
+external/harfbuzz/src/hb-subset-input.hh:
+
+external/harfbuzz/src/hb-set.hh:
+
+external/harfbuzz/src/hb-bit-set-invertible.hh:
+
+external/harfbuzz/src/hb-bit-set.hh:
+
+external/harfbuzz/src/hb-bit-page.hh:
+
+external/harfbuzz/src/hb-subset-plan.hh:
+
+external/harfbuzz/src/hb-set-digest.hh:
+
+external/harfbuzz/src/hb-ot-shape-normalize.hh:

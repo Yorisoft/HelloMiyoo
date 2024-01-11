@@ -1,0 +1,4 @@
+IMG_WIC.lo: IMG_WIC.c \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:

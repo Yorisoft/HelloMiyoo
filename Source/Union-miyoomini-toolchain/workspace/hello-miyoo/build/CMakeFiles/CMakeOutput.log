@@ -1,0 +1,675 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 5.15.133.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/workspace/hello-miyoo/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++ 
+Build flags: ;-I/usr/lib/gcc/x86_64-linux-gnu/8/include/;-I/usr/lib/gcc/x86_64-linux-gnu/8/include/
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/workspace/hello-miyoo/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_513d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_513d5.dir/build.make CMakeFiles/cmTC_513d5.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_513d5.dir/testCCompiler.c.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_513d5.dir/testCCompiler.c.o   -c /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_513d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_513d5.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_513d5.dir/testCCompiler.c.o  -o cmTC_513d5 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0def/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0def.dir/build.make CMakeFiles/cmTC_f0def.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f0def
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0def.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o  -o cmTC_f0def 
+Using built-in specs.
+COLLECT_GCC=/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../libexec/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../lib/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0def'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xT49o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f0def /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/opt/miyoomini-toolchain/bin/../lib/gcc -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0def'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f0def/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f0def.dir/build.make CMakeFiles/cmTC_f0def.dir/build]
+  ignore line: [make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f0def]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0def.dir/link.txt --verbose=1]
+  ignore line: [/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o  -o cmTC_f0def ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../libexec/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../lib/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0def'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  link line: [ /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xT49o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f0def /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/opt/miyoomini-toolchain/bin/../lib/gcc -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4xT49o.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f0def] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0]
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc]
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_f0def.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> [/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc] ==> [/opt/miyoomini-toolchain/lib/gcc]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/lib]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0;/opt/miyoomini-toolchain/lib/gcc;/opt/miyoomini-toolchain/arm-linux-gnueabihf/lib;/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/lib;/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_620c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_620c3.dir/build.make CMakeFiles/cmTC_620c3.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_620c3.dir/feature_tests.c.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_620c3.dir/feature_tests.c.o   -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_620c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_620c3.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_620c3.dir/feature_tests.c.o  -o cmTC_620c3 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c33e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c33e.dir/build.make CMakeFiles/cmTC_3c33e.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c33e.dir/feature_tests.c.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_3c33e.dir/feature_tests.c.o   -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3c33e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c33e.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_3c33e.dir/feature_tests.c.o  -o cmTC_3c33e 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_344bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_344bf.dir/build.make CMakeFiles/cmTC_344bf.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_344bf.dir/feature_tests.c.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_344bf.dir/feature_tests.c.o   -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_344bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_344bf.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_344bf.dir/feature_tests.c.o  -o cmTC_344bf 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9047/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9047.dir/build.make CMakeFiles/cmTC_b9047.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9047.dir/testCXXCompiler.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -o CMakeFiles/cmTC_b9047.dir/testCXXCompiler.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b9047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9047.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_b9047.dir/testCXXCompiler.cxx.o  -o cmTC_b9047 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d35de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d35de.dir/build.make CMakeFiles/cmTC_d35de.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -o CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d35de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d35de.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -v CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d35de 
+Using built-in specs.
+COLLECT_GCC=/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../libexec/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../lib/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-v' '-o' 'cmTC_d35de' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFAGdCU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d35de /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/opt/miyoomini-toolchain/bin/../lib/gcc -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-v' '-o' 'cmTC_d35de' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d35de/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d35de.dir/build.make CMakeFiles/cmTC_d35de.dir/build]
+  ignore line: [make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -o CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d35de]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d35de.dir/link.txt --verbose=1]
+  ignore line: [/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -v CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d35de ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../libexec/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/opt/miyoomini-toolchain/bin/../lib/gcc/:/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib/:/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-I' '/usr/lib/gcc/x86_64-linux-gnu/8/include/' '-v' '-o' 'cmTC_d35de' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  link line: [ /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFAGdCU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d35de /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/opt/miyoomini-toolchain/bin/../lib/gcc -L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib -L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/miyoomini-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFAGdCU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d35de] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0]
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc]
+    arg [-L/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_d35de.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> [/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc] ==> [/opt/miyoomini-toolchain/lib/gcc]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/lib]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/opt/miyoomini-toolchain/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0;/opt/miyoomini-toolchain/lib/gcc;/opt/miyoomini-toolchain/arm-linux-gnueabihf/lib;/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/lib;/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_689a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_689a3.dir/build.make CMakeFiles/cmTC_689a3.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_689a3.dir/feature_tests.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -std=c++2a -o CMakeFiles/cmTC_689a3.dir/feature_tests.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_689a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_689a3.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_689a3.dir/feature_tests.cxx.o  -o cmTC_689a3 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2c4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2c4b.dir/build.make CMakeFiles/cmTC_c2c4b.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2c4b.dir/feature_tests.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -std=c++17 -o CMakeFiles/cmTC_c2c4b.dir/feature_tests.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c2c4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c4b.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_c2c4b.dir/feature_tests.cxx.o  -o cmTC_c2c4b 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22a33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22a33.dir/build.make CMakeFiles/cmTC_22a33.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22a33.dir/feature_tests.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -std=c++14 -o CMakeFiles/cmTC_22a33.dir/feature_tests.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_22a33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a33.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_22a33.dir/feature_tests.cxx.o  -o cmTC_22a33 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8796/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8796.dir/build.make CMakeFiles/cmTC_c8796.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8796.dir/feature_tests.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -std=c++11 -o CMakeFiles/cmTC_c8796.dir/feature_tests.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8796
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8796.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_c8796.dir/feature_tests.cxx.o  -o cmTC_c8796 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0dbad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dbad.dir/build.make CMakeFiles/cmTC_0dbad.dir/build
+make[1]: Entering directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0dbad.dir/feature_tests.cxx.o
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++    -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/    -std=c++98 -o CMakeFiles/cmTC_0dbad.dir/feature_tests.cxx.o -c /root/workspace/hello-miyoo/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0dbad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dbad.dir/link.txt --verbose=1
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/ -I/usr/lib/gcc/x86_64-linux-gnu/8/include/     CMakeFiles/cmTC_0dbad.dir/feature_tests.cxx.o  -o cmTC_0dbad 
+make[1]: Leaving directory '/root/workspace/hello-miyoo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

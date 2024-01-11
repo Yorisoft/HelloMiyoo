@@ -1,0 +1,7 @@
+/root/workspace/hello-miyoo/build/CMakeFiles/install/strip.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/edit_cache.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/HelloMiyoo.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/rebuild_cache.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/list_install_components.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/install/local.dir
+/root/workspace/hello-miyoo/build/CMakeFiles/install.dir

@@ -1,0 +1,30 @@
+/bin/bash build-scripts/updaterev.sh --vendor ""
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/bin
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/include/SDL2
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/share/aclocal
+mkdir -p -- /root/workspace/build/bin
+/usr/bin/install -c -m 755 sdl2-config /root/workspace/build/bin/sdl2-config
+mkdir -p -- /root/workspace/build/share/aclocal
+mkdir -p -- /root/workspace/build/include/SDL2
+/usr/bin/install -c -m 644 /root/workspace/SDL2-2.26.5/sdl2.m4 /root/workspace/build/share/aclocal/sdl2.m4
+for file in SDL.h SDL_assert.h SDL_atomic.h SDL_audio.h SDL_bits.h SDL_blendmode.h SDL_clipboard.h SDL_cpuinfo.h SDL_egl.h SDL_endian.h SDL_error.h SDL_events.h SDL_filesystem.h SDL_gamecontroller.h SDL_gesture.h SDL_guid.h SDL_haptic.h SDL_hidapi.h SDL_hints.h SDL_joystick.h SDL_keyboard.h SDL_keycode.h SDL_loadso.h SDL_locale.h SDL_log.h SDL_main.h SDL_messagebox.h SDL_metal.h SDL_misc.h SDL_mouse.h SDL_mutex.h SDL_name.h SDL_opengl.h SDL_opengl_glext.h SDL_opengles.h SDL_opengles2_gl2ext.h SDL_opengles2_gl2.h SDL_opengles2_gl2platform.h SDL_opengles2.h SDL_opengles2_khrplatform.h SDL_pixels.h SDL_platform.h SDL_power.h SDL_quit.h SDL_rect.h SDL_render.h SDL_rwops.h SDL_scancode.h SDL_sensor.h SDL_shape.h SDL_stdinc.h SDL_surface.h SDL_system.h SDL_syswm.h SDL_thread.h SDL_timer.h SDL_touch.h SDL_types.h SDL_version.h SDL_video.h SDL_vulkan.h begin_code.h close_code.h SDL_test.h SDL_test_assert.h SDL_test_common.h SDL_test_compare.h SDL_test_crc32.h SDL_test_font.h SDL_test_fuzzer.h SDL_test_harness.h SDL_test_images.h SDL_test_log.h SDL_test_md5.h SDL_test_memory.h SDL_test_random.h; do \
+    /usr/bin/install -c -m 644 /root/workspace/SDL2-2.26.5/include/$file /root/workspace/build/include/SDL2/$file; \
+done
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/lib
+mkdir -p -- /root/workspace/build/lib
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/lib/pkgconfig
+/bin/bash ./libtool --quiet --mode=install /usr/bin/install -c build/libSDL2.la /root/workspace/build/lib/libSDL2.la
+mkdir -p -- /root/workspace/build/lib/pkgconfig
+/usr/bin/install -c -m 644 sdl2.pc /root/workspace/build/lib/pkgconfig
+/bin/bash build-scripts/mkinstalldirs /root/workspace/build/lib/cmake/SDL2
+mkdir -p -- /root/workspace/build/lib/cmake/SDL2
+/usr/bin/install -c -m 644 sdl2-config.cmake /root/workspace/build/lib/cmake/SDL2
+/usr/bin/install -c -m 644 sdl2-config-version.cmake /root/workspace/build/lib/cmake/SDL2
+/bin/bash ./libtool --quiet --mode=install /usr/bin/install -c build/libSDL2main.la /root/workspace/build/lib/libSDL2main.la
+/bin/bash ./libtool --quiet --mode=install /usr/bin/install -c build/libSDL2_test.la /root/workspace/build/lib/libSDL2_test.la
+/usr/bin/install -c -m 644 include/SDL_config.h /root/workspace/build/include/SDL2/SDL_config.h
+if test -f include/SDL_revision.h; then \
+    /usr/bin/install -c -m 644 include/SDL_revision.h /root/workspace/build/include/SDL2/SDL_revision.h; \
+else \
+    /usr/bin/install -c -m 644 /root/workspace/SDL2-2.26.5/include/SDL_revision.h /root/workspace/build/include/SDL2/SDL_revision.h; \
+fi

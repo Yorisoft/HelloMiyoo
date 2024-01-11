@@ -1,0 +1,40 @@
+Making install in .
+make[1]: Entering directory '/root/workspace/SDL2_image-2.6.3'
+make[2]: Entering directory '/root/workspace/SDL2_image-2.6.3'
+/bin/mkdir -p /root/workspace/build/lib/cmake/SDL2_image
+ /bin/mkdir -p '/root/workspace/build/include/SDL2'
+ /bin/mkdir -p '/root/workspace/build/lib'
+ /bin/mkdir -p '/root/workspace/build/lib/pkgconfig'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libSDL2_image.la '/root/workspace/build/lib'
+/usr/bin/install -c -m 644 sdl2_image-config.cmake /root/workspace/build/lib/cmake/SDL2_image
+ /usr/bin/install -c -m 644 SDL_image.h '/root/workspace/build/include/SDL2'
+ /usr/bin/install -c -m 644 SDL2_image.pc '/root/workspace/build/lib/pkgconfig'
+/usr/bin/install -c -m 644 sdl2_image-config-version.cmake /root/workspace/build/lib/cmake/SDL2_image
+libtool: install: /usr/bin/install -c .libs/libSDL2_image-2.0.so.0.600.3 /root/workspace/build/lib/libSDL2_image-2.0.so.0.600.3
+libtool: install: (cd /root/workspace/build/lib && { ln -s -f libSDL2_image-2.0.so.0.600.3 libSDL2_image-2.0.so.0 || { rm -f libSDL2_image-2.0.so.0 && ln -s libSDL2_image-2.0.so.0.600.3 libSDL2_image-2.0.so.0; }; })
+libtool: install: (cd /root/workspace/build/lib && { ln -s -f libSDL2_image-2.0.so.0.600.3 libSDL2_image.so || { rm -f libSDL2_image.so && ln -s libSDL2_image-2.0.so.0.600.3 libSDL2_image.so; }; })
+libtool: install: /usr/bin/install -c .libs/libSDL2_image.lai /root/workspace/build/lib/libSDL2_image.la
+libtool: install: /usr/bin/install -c .libs/libSDL2_image.a /root/workspace/build/lib/libSDL2_image.a
+libtool: install: chmod 644 /root/workspace/build/lib/libSDL2_image.a
+libtool: install: arm-linux-gnueabihf-ranlib /root/workspace/build/lib/libSDL2_image.a
+libtool: finish: PATH="/opt/miyoomini-toolchain/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/miyoomini-toolchain/usr/arm-linux-gnueabihf/sysroot/bin:/root/workspace/build/bin:/sbin" ldconfig -n /root/workspace/build/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /root/workspace/build/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/root/workspace/SDL2_image-2.6.3'
+make[1]: Leaving directory '/root/workspace/SDL2_image-2.6.3'

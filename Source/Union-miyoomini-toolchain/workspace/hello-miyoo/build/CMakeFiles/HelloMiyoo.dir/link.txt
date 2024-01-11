@@ -1,0 +1,1 @@
+/opt/miyoomini-toolchain/usr/bin/arm-linux-gnueabihf-g++   -I/usr/lib/gcc/x86_64-linux-gnu/8/include/   CMakeFiles/HelloMiyoo.dir/HelloMiyoo.cpp.o  -o HelloMiyoo -Wl,-rpath,/root/workspace/build/lib: /root/workspace/build/lib/libSDL2.so /root/workspace/build/lib/libSDL2_ttf.so 

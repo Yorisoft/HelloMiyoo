@@ -1,0 +1,281 @@
+external/freetype/src/base/libSDL2_ttf_la-ftwinfnt.lo: \
+ external/freetype/src/base/ftwinfnt.c \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ external/freetype/include/freetype/internal/ftdebug.h \
+ external/freetype/include/ft2build.h \
+ external/freetype/include/freetype/config/ftheader.h \
+ external/freetype/include/freetype/config/ftconfig.h \
+ external/freetype/include/freetype/config/ftoption.h \
+ external/freetype/include/freetype/config/ftstdlib.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stddef.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/limits.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/syslimits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/strings.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdarg.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/setjmp.h \
+ /opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ external/freetype/include/freetype/config/integer-types.h \
+ external/freetype/include/freetype/config/public-macros.h \
+ external/freetype/include/freetype/config/mac-support.h \
+ external/freetype/include/freetype/freetype.h \
+ external/freetype/include/freetype/fttypes.h \
+ external/freetype/include/freetype/ftsystem.h \
+ external/freetype/include/freetype/ftimage.h \
+ external/freetype/include/freetype/fterrors.h \
+ external/freetype/include/freetype/ftmoderr.h \
+ external/freetype/include/freetype/fterrdef.h \
+ external/freetype/include/freetype/internal/compiler-macros.h \
+ external/freetype/include/freetype/ftwinfnt.h \
+ external/freetype/include/freetype/internal/ftobjs.h \
+ external/freetype/include/freetype/ftrender.h \
+ external/freetype/include/freetype/ftmodapi.h \
+ external/freetype/include/freetype/ftglyph.h \
+ external/freetype/include/freetype/ftsizes.h \
+ external/freetype/include/freetype/ftlcdfil.h \
+ external/freetype/include/freetype/ftparams.h \
+ external/freetype/include/freetype/internal/ftmemory.h \
+ external/freetype/include/freetype/internal/ftgloadr.h \
+ external/freetype/include/freetype/internal/ftdrv.h \
+ external/freetype/include/freetype/internal/autohint.h \
+ external/freetype/include/freetype/internal/ftserv.h \
+ external/freetype/include/freetype/internal/ftcalc.h \
+ external/freetype/include/freetype/ftincrem.h \
+ external/freetype/include/freetype/internal/services/svwinfnt.h
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+external/freetype/include/freetype/internal/ftdebug.h:
+
+external/freetype/include/ft2build.h:
+
+external/freetype/include/freetype/config/ftheader.h:
+
+external/freetype/include/freetype/config/ftconfig.h:
+
+external/freetype/include/freetype/config/ftoption.h:
+
+external/freetype/include/freetype/config/ftstdlib.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stddef.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/limits.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed/syslimits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/strings.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/miyoomini-toolchain/lib/gcc/arm-linux-gnueabihf/8.3.0/include/stdarg.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/floatn-common.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/sigset_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/__sigset_t.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/thread-shared-types.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/setjmp.h:
+
+/opt/miyoomini-toolchain/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+external/freetype/include/freetype/config/integer-types.h:
+
+external/freetype/include/freetype/config/public-macros.h:
+
+external/freetype/include/freetype/config/mac-support.h:
+
+external/freetype/include/freetype/freetype.h:
+
+external/freetype/include/freetype/fttypes.h:
+
+external/freetype/include/freetype/ftsystem.h:
+
+external/freetype/include/freetype/ftimage.h:
+
+external/freetype/include/freetype/fterrors.h:
+
+external/freetype/include/freetype/ftmoderr.h:
+
+external/freetype/include/freetype/fterrdef.h:
+
+external/freetype/include/freetype/internal/compiler-macros.h:
+
+external/freetype/include/freetype/ftwinfnt.h:
+
+external/freetype/include/freetype/internal/ftobjs.h:
+
+external/freetype/include/freetype/ftrender.h:
+
+external/freetype/include/freetype/ftmodapi.h:
+
+external/freetype/include/freetype/ftglyph.h:
+
+external/freetype/include/freetype/ftsizes.h:
+
+external/freetype/include/freetype/ftlcdfil.h:
+
+external/freetype/include/freetype/ftparams.h:
+
+external/freetype/include/freetype/internal/ftmemory.h:
+
+external/freetype/include/freetype/internal/ftgloadr.h:
+
+external/freetype/include/freetype/internal/ftdrv.h:
+
+external/freetype/include/freetype/internal/autohint.h:
+
+external/freetype/include/freetype/internal/ftserv.h:
+
+external/freetype/include/freetype/internal/ftcalc.h:
+
+external/freetype/include/freetype/ftincrem.h:
+
+external/freetype/include/freetype/internal/services/svwinfnt.h:
