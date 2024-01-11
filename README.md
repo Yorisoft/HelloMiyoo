@@ -1,6 +1,9 @@
 # Hello Miyoo Project
 
-This project contains a simple "Hello World" application for the Miyoo Mini device. The application displays the text "Hello Miyoo" in the center of the screen.
+This project is for getting started with developing CPP+SDL apps for the MiyooMini devices. 
+This repo contains a simple "Hello World" application for the Miyoo Mini. The application displays the text "Hello Miyoo" in the center of the screen.
+
+There are plenty of comments in both version of the .cpp for users to get familiar with the SDL functions. Hope it help!!
 
 ### Preview
 ![image](https://github.com/Yorisoft/HelloMiyoo/assets/27126548/91dd9b6c-4be8-4467-adb9-a976d1ed9fc6)
