@@ -3,7 +3,8 @@
 This project contains a simple "Hello World" application for the Miyoo Mini device. The application displays the text "Hello Miyoo" in the center of the screen.
 
 ### Preview
-![image](https://github.com/Yorisoft/HelloMiyoo/assets/27126548/d24abed0-e836-49ba-9bc0-29abc0818d15)
+![image](https://github.com/Yorisoft/HelloMiyoo/assets/27126548/91dd9b6c-4be8-4467-adb9-a976d1ed9fc6)
+
 
 ## Instructions
 
