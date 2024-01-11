@@ -23,7 +23,9 @@ This project contains a simple "Hello World" application for the Miyoo Mini devi
      ```
         cd build
         cmake .. -DCMAKE_TOOLCHAIN_FILE=../Toolchain.cmake
+        make
      ```
+4. The binary should be located in `workspace/build/HelloMiyoo`
 
 ### Transferring the App to the Miyoo Mini Device
 
@@ -48,6 +50,3 @@ The project has the following directory structure:
         - Union-miyoomini-toolchain
             - workspace
 ```
-
-
-
