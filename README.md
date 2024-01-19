@@ -6,7 +6,7 @@ This repo contains a simple "Hello World" application for the Miyoo Mini. The ap
 There are plenty of comments in both versions of the .cpp for users to get familiar with the SDL functions. Hope it helps!!
 
 ### Preview
-![image](https://github.com/Yorisoft/HelloMiyoo/assets/27126548/91dd9b6c-4be8-4467-adb9-a976d1ed9fc6)
+![image](https://github.com/Yorisoft/HelloMiyoo/assets/27126548/7242f8cd-efed-4d4d-a293-666c9332e5a3)
 
 
 ## Instructions
